@@ -1,18 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import "./global.css";
+import Routes from "./routes";
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>Thiago Magano.</p>
-        </header>
-      </div>
-    );
-  }
+function App() {
+  return <Routes />;
 }
 
 export default App;
